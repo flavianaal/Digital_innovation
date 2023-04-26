@@ -1,0 +1,12 @@
+Exercicio 1 
+
+Faca um algoritimo que dado as 3 notas tiradas por um aluno em um semestre da faculdade 
+calcule e imprima sua media e a sua classificação conforme a tabela abaixo 
+
+
+
+Classificação:
+
+Media menor que 5, reprovado;
+Media entre 5 e 7, recuperação;
+Media acima de 7, aprovado;
