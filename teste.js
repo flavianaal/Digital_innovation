@@ -1,16 +1,10 @@
-class Pessoa {
-    nome;
-    idade;
+const numerosPares = [];
 
-    constructor(nome, idade) {
-        this.nome = nome;
-        this.idade = idade;
+for (let i = 0; i < 10; i++) {
+    const numeroPar = i % 2 === 0;
+    if (numeroPar) {
+        numerosPares.push(i);
     }
 }
 
-function descreverPessoa(pessoa) {
-    console.log(`Nome: ${pessoa.nome}; Idade: ${pessoa.idade};`);
-}
-
-const renan = new Pessoa('Renan', 30);
-console.log(descreverPessoa(renan));
+console.log(numerosPares);
